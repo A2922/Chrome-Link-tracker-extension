@@ -1,0 +1,10 @@
+{
+    "name": "com.example.linklogger",
+    "description": "Link Logger Native Messaging Host",
+    "path": "change24/ankit extension/linklogger.py",
+    "type": "stdio",
+    "allowed_origins": [
+      "chrome-extension:///"
+    ]
+  }
+  

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ankit link Tracker</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 8px; border-bottom: 1px solid #ddd; text-align: left; }
+        th { background-color: #f2f2f2; }
+        button { margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h2>Ankit link Tracker</h2>
+    <p>Total Visited Sites: <span id="totalSites">0</span></p>
+    <p>Total Hyperlinks: <span id="totalHyperlinks">0</span></p>
+    <button id="showDetails">Show More Details</button>
+    <div id="details" style="display: none;">
+        <h3>Hyperlink Details</h3>
+        <table id="hyperlinkTable">
+            <thead>
+                <tr>
+                    <th>Visited Site</th>
+                    <th>Hyperlink</th>
+                    <th>Occurrences</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
